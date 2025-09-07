@@ -1,9 +1,4 @@
-import React from 'react'
-
-const layout = () => {
-  return (
-    <div>layout</div>
-  )
+// app/dashboard/layout.jsx
+export default function DashboardLayout({ children }) {
+  return <section className="mx-auto max-w-7xl px-6 py-8">{children}</section>;
 }
-
-export default layout
