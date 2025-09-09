@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link href="/" className="text-xl font-semibold text-indigo-600" style={{ fontFamily: '"Story Script", cursive' }}>BookNest</Link>
         <div className="hidden md:flex items-center gap-6">
           <CustomLink href="/dashboard/providers" className="text-gray-700 hover:text-indigo-600">Providers</CustomLink>
-          <CustomLink href="/book" className="text-gray-700 hover:text-indigo-600">Book</CustomLink>
+          <CustomLink href="/dashboard/bookings" className="text-gray-700 hover:text-indigo-600">Book</CustomLink>
           <CustomLink href="/dashboard" className="text-gray-700 hover:text-indigo-600">Dashboard</CustomLink>
           <CustomLink href="/contact" className="text-gray-700 hover:text-indigo-600">Contact</CustomLink>
           <Link href="/login" className="rounded-lg bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-700">Sign in</Link>

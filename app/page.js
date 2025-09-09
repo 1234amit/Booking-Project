@@ -26,7 +26,7 @@ export default function HomePage() {
               </p>
 
               <div className="mt-6 flex flex-wrap items-center gap-3">
-                <Link href="/book" className="group inline-flex items-center rounded-xl bg-white px-5 py-3 text-sm font-medium text-indigo-700 shadow-sm ring-1 ring-black/5 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70">
+                <Link href="/dashboard/bookings" className="group inline-flex items-center rounded-xl bg-white px-5 py-3 text-sm font-medium text-indigo-700 shadow-sm ring-1 ring-black/5 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70">
                   Book a demo
                   <svg viewBox="0 0 24 24" className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none">
                     <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
