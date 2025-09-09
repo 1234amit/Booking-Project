@@ -22,11 +22,11 @@ export default function Navbar() {
       </div>
       <div className={`${open ? "block" : "hidden"} md:hidden border-t border-gray-200`}>
         <div className="px-6 py-3 space-y-2">
-          <CustomLink href="/providers" className="block text-gray-700 hover:text-indigo-600">Providers</CustomLink>
-          <CustomLink href="/book" className="block text-gray-700 hover:text-indigo-600">Book</CustomLink>
+          <CustomLink href="/dashboard/providers" className="block text-gray-700 hover:text-indigo-600">Providers</CustomLink>
+          <CustomLink href="/dashboard/bookings" className="block text-gray-700 hover:text-indigo-600">Book</CustomLink>
           <CustomLink href="/dashboard" className="block text-gray-700 hover:text-indigo-600">Dashboard</CustomLink>
           <CustomLink href="/contact" className="block text-gray-700 hover:text-indigo-600">Contact</CustomLink>
-          <CustomLink href="/auth/login" className="block rounded-lg bg-indigo-600 px-4 py-2 text-center text-white hover:bg-indigo-700">Sign in</CustomLink>
+          <CustomLink href="/login" className="block rounded-lg bg-indigo-600 px-4 py-2 text-center text-white hover:bg-indigo-700">Sign in</CustomLink>
         </div>
       </div>
     </nav>
